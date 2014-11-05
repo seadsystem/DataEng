@@ -11,7 +11,6 @@ import sys
 
 def chunk_data( file ):
    #sensor_id,data,microstamp,device_microstamp
-   #54 55 wattage, 56 temperature
 
    pattern = re.compile(r'([0-9]{2}),{1}(-?[0-9]*?.?[0-9]+?),{1}([0-9]+?),{1}([0-9]+)')
 
